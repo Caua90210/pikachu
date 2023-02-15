@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 body{
     height: 100vh;
@@ -9,14 +10,23 @@ body{
     grid-template-rows: 100px  1fr 50px;
     padding: 70px 70px 24px 70px;
         background-color: #f5cf06;
+        color: #8e4106;
 }
 
-header{
-    background-color: slateblue;
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-family: 'Righteous', cursive;
+}
+.logo__text{
+    font-size: 32px;
+    font-weight: 100;
 }
 main{
-    background-color: plum;
+    background-color: orangered;
+    
 }
 footer{
-    background-color: powderblue;
+    background-color: tomato;
 }
